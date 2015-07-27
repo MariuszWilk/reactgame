@@ -1,0 +1,73 @@
+
+.container {
+	width: 500px;
+	margin-top: 30px;
+}
+
+#stars_frame .glyphicon {
+	font-size: 2.3em;
+	margin: 0.2em;
+}
+
+#stars_frame, #answer_frame {
+	width: 42%;
+	float: left;
+}
+
+#button_frame {
+	float: left;
+	width: 4em;
+	text-align: center;
+	margin-top: 40px;
+}
+
+.btn-xs{
+	margin-top: 20px !important;
+	border-radius: 0;
+}
+
+button {
+   outline: none;
+}
+
+#answer_frame .well, #stars_frame .well {
+	height: 13em;
+}
+
+#number_frame, #message_frame {
+	clear: both;
+	width: 98%;
+}
+
+.nums, #answer_frame .well span {
+	font-size: 22px;
+	width: 1.4em;
+	background-color: #598CFF;
+	border-radius: 50%;
+	text-align: center;
+	display: inline-block;
+	margin: 0.4em;
+	cursor: pointer;
+	font-weight: bold;
+	color: hsl(360, 90%, 90%);
+}
+
+.nums {
+	margin: 0.6em;
+}
+
+.selected-true {
+	background-color: #AAA;
+	cursor: not-allowed;
+}
+
+.used-true {
+	background-color: #FF2400;
+	color: #FF7470;
+	cursor: not-allowed;
+}
+
+h2 {
+	padding-top: 0px;
+	margin-top: 6px;
+}
